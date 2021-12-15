@@ -1,3 +1,5 @@
+TO TEST TRY : python3 hachoir.py random.txt results.txt
+
 ###############
 
 
@@ -22,3 +24,6 @@ numpy
 pandas
 hashlib (pour comparaison avec d'autres fonctions de hash existentes)
 matplotlib
+
+#######################
+
