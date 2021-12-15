@@ -92,7 +92,7 @@ def md5(s) :
     m= hashlib.md5()
     m.update(bytes(s,'utf8'))
 
-    return m.digest()
+    return int(m.hexdigest(),16)
 
 #%%
 ########################################
